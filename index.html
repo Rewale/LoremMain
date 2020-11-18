@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style/mainStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Mulish:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="imgs/Logo.svg" id="logo">
+        <ul class="list">
+            <li class="item">Заявка</li>
+            <li class="item">Галерея</li>
+            <li class="item">Афиша</li>
+            <li class="item">Профиль художника</li>
+        </ul>
+        <div id="Buttons-nav">
+            <a href="#"><div class="Button-Join">Вход</div></a>
+            <a href="#"><div class="Button-Join" id="Button-Reg">Регистрация</div></a>
+        </div>
+        <div id="hide-div">
+            <img id="menu_butt" src="imgs/menu.png">
+            <ul class="list-hide">
+                <a href="#"><li class="item-hide">Заявка</li></a>
+                <a href="#"><li class="item-hide">Галерея</li></a>
+                <a href="#"><li class="item-hide">Афиша</li></a>
+                <a href="#"><li class="item-hide">Профиль<br>художника</li></a>
+                <a href="#"><li class="item-hide">Вход</li></a>
+                <a href="#"><li class="item-hide">Регистрация</li></a>
+            </ul>
+        </div>
+        
+    </header>
+    <main>
+        <section class="main-title">
+            <h1>ХУДОЖЕСТВЕННЫЙ<br>КРУЖОК “LOREM”</h1>
+            <a href="#"><div id="Butt-Zayvka">ПОДАТЬ ЗАЯВКУ</div></a>
+        </section>
+        <h1 class="titleEvery">ГАЛЕРЕЯ</h1>
+        <section>
+            <table id="gallery">
+                <tr>
+                    <td>
+                        <img src="imgs/gall/Rectangle.png">
+                    </td>
+                    <td>
+                        <img src="imgs/gall/Rectangle (1).png">
+                    </td>
+                    <td>
+                        <img src="imgs/gall/Rectangle (2).png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="imgs/gall/Rectangle (3).png">
+                    </td>
+                    <td>
+                        <img src="imgs/gall/Rectangle (4).png">
+                    </td>
+                    <td>
+                        <img src="imgs/gall/Rectangle (5).png">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <h1 class="titleEvery">НАШИ ВЫСТАВКИ</h1>
+        <section id="afisha">
+            <div class="vist">
+                <img src="imgs/afisha/art-perm.png">
+                <div class=info>
+                    <h4>АртПермь</h4>
+                <p class="deskr">
+                    Грядущая «АРТ-Пермь — 2019» станет не только выставочным, но и исследовательским
+                    проектом, в результате которого мы вместе с вами выведем новые формулы в творчестве.
+
+                </p>
+                <p class="price">
+                    Стоимость: 1000р
+                </p>
+                </div>
+                
+            </div>
+            <div class="vist">
+                <img src="imgs/afisha/pobeda.png">
+                <div class=info>
+                    <h4>Великая победа</h4>
+                <p class="deskr">
+                    Ключом к пониманию структуры экспозиции является мультимедийная инсталляция,
+                    сопровождающая зрителя через всю выставку, общей протяженностью более ста метров.
+
+                </p>
+                <p class="price">
+                    Стоимость: Бесплатно
+                </p>
+                </div>
+            </div>
+            <div class="vist">
+                <img src="imgs/afisha/virt.png">
+                <div class=info>
+                    <h4>Виртуальные дети</h4>
+                    <p class="deskr">
+                        «Тайны Очёрского холма. Дети. Драконы. Ученые» выставка в Музее пермских
+                        древностей и первая книга для детей, изданная музеем.
+                    </p>
+                    <p class="price">
+                        Стоимость: 100р
+                    </p>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <footer>
+        <div id="footer-content">
+            <img src="imgs\Logo.svg">
+            <div id="info-footer">
+                <div>
+                    <p>Контакты</p>
+                    <ul class="list-footer">
+                        <li>Руководитель: 8-(800)-555-35-35</li>
+                        <li>Иванов Иван Иванович</li>
+                        <li>Преподаватель:</li>
+                        <li>Анинянова Наталья Васильевна</li>
+                        <li>8-(800_333-70-00</li>
+                    </ul>
+                </div>
+                <div id="Whereismymind">
+                    <p>Где мы?</p>
+                    <ul class="list-footer">
+                        <li>г. Пермь Ул. </li>
+                        <li>Ласьвинская 6.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <script  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/mainPage.js"></script>
+</body>
+</html>

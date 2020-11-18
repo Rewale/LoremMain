@@ -1,0 +1,332 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_butt{
+    width: 80px;
+    margin-top: 15px;
+}
+header{
+       
+    width: 90%;   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#logo{
+    margin-top: 15px;
+    margin-left: 5%;
+    width:82px;
+}
+.list{
+    display: flex;
+    margin-top: 50px;   
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+    width:40%;
+    
+}
+.list-hide{
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    right:0px;
+}
+.item-hide{
+    padding:20px;
+}
+.list-hide a:hover{
+    color:#9600AE;
+    
+}
+/*Стиль всех ссылок на странице*/
+a{
+    text-decoration: none;
+    color:inherit;
+}
+/*Стиль ссылки в основной навигации*/
+.list a{
+    color:#18A0FB;
+}
+/*Элемент списка в навигации*/
+.item{
+    /* Subtitle 2 - semibold 14 (18, 0.2px) */
+
+    font-family: 'Mulish', sans-serif;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: inline;
+    
+    letter-spacing: 0.2px;
+   
+    margin-right:3%;
+    color: #373F41;
+    white-space: nowrap;
+
+}
+#Buttons-nav{
+    display: flex;
+    margin-top: 35px; 
+}
+.Button-Join{
+    background-color:#C4C4C4;
+    display: inline-block; 
+    padding:8% 0;
+    width: 114px;
+    text-align: center;    
+    text-decoration: none;    
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
+#Button-Reg{
+    color:white;
+    background: #9600AE;
+    
+    
+}
+.main-title{
+    background-image: url('fonMain.png');
+    background-size: cover;
+    width:100%;
+    display: inline-block;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.main-title h1{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 80px;
+    /* or 143% */
+
+    
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #9600AE;
+
+
+}
+#Butt-Zayvka{
+    margin: auto;
+    
+    width:303px;
+    padding: 1% 0px;
+    
+    background-color: #BDBDBD;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+.titleEvery{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#gallery{
+    margin: auto;
+    margin-top: 50px;
+}
+#gallery td{
+    padding-left:  1%;
+    padding-bottom: 10px;
+}
+#gallery img{
+    width:100%;
+}
+#afisha{
+    margin-left:5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.vist{
+    display: flex;
+    width:30%;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.5);;
+    flex-direction: column;
+    
+}
+.vist img{
+    width:100%;
+    max-height: 340px;
+}
+.info{
+    padding-top:50px;
+    padding-bottom: 100px;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.info h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.deskr{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 107%;
+   
+
+    
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 167%;
+    /* or 167% */
+
+    
+
+    color: rgba(0, 0, 0, 0.8);
+}
+footer{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    background-color: #C4C4C4; 
+    margin: 1px;  
+}
+#footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+#footer-content p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 160%;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+}
+#footer-content li{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+#Whereismymind{
+    padding-left: 3%;
+}
+#Whereismymind li,p{
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+footer img{
+    width:179px;
+    padding-left:5%;
+}
+#info-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;  
+}
+
+.list-footer{
+     
+    padding: 0;
+    
+    list-style: none;
+}
+@media(max-width:900px)
+{
+   #afisha{
+       flex-direction: column;
+       margin: 0;
+   } 
+   .vist{
+       width:80%;
+       margin: auto;
+       margin-bottom: 50px;
+   }
+   #info-footer{
+       width:70%;
+   }
+   header{
+       width:100%;
+       
+   }
+}
+@media(max-width:768px){
+    .item{
+        font-size: 12px;
+    }
+    
+}
+@media(max-width:680px){
+    .Button-Join{
+        font-size: 12px;
+        width:90px;
+        margin-top:5px;
+    }
+    .main-title h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:650px)
+{
+    #footer-content li,p{
+        font-size:12px;
+    }
+}
+@media(max-width:550px)
+{
+    #footer-content li,p{
+        font-size:10px;
+    }
+}
+
