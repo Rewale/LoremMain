@@ -1,9 +1,9 @@
-* {
+.glider-contain {
     box-sizing: border-box
 }
 html, body {
     width: 100%;
-    overflow: hidden;
+    
 }
 .glider-contain {
     width: 80%;
@@ -17,6 +17,28 @@ html, body {
 .glider-slide img {
     width: 100%;
 }
-footer{
-    padding-bottom: 10%;
+
+
+.list-hide{
+    position: absolute;
 }
+header{
+    margin-bottom: 100px;
+}
+#title_gall{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 80px;
+    /* or 167% */
+
+    
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+
+}
+

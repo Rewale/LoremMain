@@ -49,6 +49,9 @@ header{
     padding-top: 10px;
     
 }
+.item-hide{
+    padding: 20px;
+}
 .list-hide a:hover{
     color:#9600AE;
     
