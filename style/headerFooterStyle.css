@@ -32,20 +32,22 @@ header{
 .list-hide{
     
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    overflow-wrap: break-word;
     list-style: none;
     position: absolute;
     background-color: #F5F5F5;
     right:0px;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-.item-hide{
+.item-hide-a{
     display: inline;
-    margin-top: 0px;
-    padding-bottom:20px;
+    padding-top: 10px;
+    
 }
 .list-hide a:hover{
     color:#9600AE;

@@ -272,5 +272,8 @@ a{
     #footer-content li,p{
         font-size:10px;
     }
+    .main-title h1{
+        font-size: 30px;
+    }
 }
 
