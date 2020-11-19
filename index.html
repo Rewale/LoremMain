@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+    <link rel="stylesheet" href="style/headerFooterStyle.css">
     <link rel="stylesheet" href="style/mainStyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Mulish:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="imgs/Logo.svg" id="logo">
+        <a href="index.html"><img src="imgs/Logo.svg" id="logo"></a>
         <ul class="list">
-            <li class="item">Заявка</li>
-            <li class="item">Галерея</li>
-            <li class="item">Афиша</li>
-            <li class="item">Профиль художника</li>
+            <a href="reg.html"><li class="item">Заявка</li></a>
+            <a href="gall.html"><li class="item">Галерея</li></a>
+            <a href="afisha.html"><li class="item">Афиша</li></a>
+            <a href="profile.html"><li class="item">Профиль художника</li></a>
         </ul>
         <div id="Buttons-nav">
-            <a href="#"><div class="Button-Join">Вход</div></a>
-            <a href="#"><div class="Button-Join" id="Button-Reg">Регистрация</div></a>
+            <a href="logIn.html"><div class="Button-Join">Вход</div></a>
+            <a href="reg.html"><div class="Button-Join" id="Button-Reg">Регистрация</div></a>
         </div>
         <div id="hide-div">
             <img id="menu_butt" src="imgs/menu.png">
@@ -114,7 +115,7 @@
     </main>
     <footer>
         <div id="footer-content">
-            <img src="imgs\Logo.svg">
+            <a href="index.html" id="logo-footer-a"><img src="imgs\Logo.svg" id="logo-footer" ></a>
             <div id="info-footer">
                 <div>
                     <p>Контакты</p>

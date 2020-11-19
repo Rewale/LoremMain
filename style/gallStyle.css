@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box
+}
+html, body {
+    width: 100%;
+    overflow: hidden;
+}
+.glider-contain {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    padding-bottom: 4%;
+    
+}
+
+.glider-slide img {
+    width: 100%;
+}
+footer{
+    padding-bottom: 10%;
+}

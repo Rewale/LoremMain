@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_butt{
+    width: 80px;
+    margin-top: 15px;
+    position: relative;
+}
+header{
+       
+    width: 90%;   
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+#logo{
+    margin-top: 15px;
+    margin-left: 5%;
+    width:82px;
+}
+.list{
+    display: flex;
+    margin-top: 50px;   
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+    width:40%;
+    
+}
+.list-hide{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    position: absolute;
+    background-color: #F5F5F5;
+    right:0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item-hide{
+    display: inline;
+    margin-top: 0px;
+    padding-bottom:20px;
+}
+.list-hide a:hover{
+    color:#9600AE;
+    
+}
+/*Стиль всех ссылок на странице*/
+a{
+    text-decoration: none;
+    color:inherit;
+}
+/*Стиль ссылки в основной навигации*/
+.list a{
+    color:#18A0FB;
+}
+/*Элемент списка в навигации*/
+.item{
+    /* Subtitle 2 - semibold 14 (18, 0.2px) */
+
+    font-family: 'Mulish', sans-serif;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: inline;
+    
+    letter-spacing: 0.2px;
+   
+    margin-right:3%;
+    color: #373F41;
+    white-space: nowrap;
+
+}
+.list-hide{
+    left:0;
+    margin:0;
+}
+#Buttons-nav{
+    display: flex;
+    margin-top: 35px; 
+}
+.Button-Join{
+    background-color:#C4C4C4;
+    display: inline-block; 
+    padding:8% 0;
+    width: 114px;
+    text-align: center;    
+    text-decoration: none;    
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
+#Button-Reg{
+    color:white;
+    background: #9600AE;
+    
+    
+}
+/*Подвал*/
+footer{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    background-color: #C4C4C4; 
+    margin: 1px;
+      
+}
+/*Содержимое подвала*/
+#footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+/*Тег параграфа в подвале*/
+#footer-content p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 160%;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+}
+/*Элемент списка в подвале*/
+#footer-content li{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+/*Правый список с адресом*/
+#Whereismymind{
+    padding-left: 3%;
+}
+#Whereismymind li,p{
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+/*Логотип в подвале*/
+#logo-footer{
+    width:179px;
+    
+}
+#logo-footer-a{
+    padding-left:5%;
+}
+
+/*Левый список с информацией*/
+#info-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;  
+}
+/*Списки в футере*/
+.list-footer{
+     
+    padding: 0;
+    
+    list-style: none;
+}
+
+
+@media(max-width:900px)
+{
+    header{
+        width:100%;
+        
+    }
+ }
+ @media(max-width:768px){
+    .item{
+        font-size: 12px;
+    }
+    
+}
+ @media(max-width:650px)
+ {
+     #footer-content li, #footer-content p{
+         font-size:12px;
+     }
+ }
+ @media(max-width:550px)
+ {
+     #footer-content li, #footer-content p{
+         font-size:10px;
+     }
+ }
+
+
+
+
+
+
+
+
