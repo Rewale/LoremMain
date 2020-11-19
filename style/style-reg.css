@@ -101,8 +101,9 @@ h1{
     }
 
 }
-@media(max-width:500px){
-    h1{
-        font-size:28px;
+@media(max-width:500px)
+{
+    #box h1{
+        font-size: 36px;
     }
 }
