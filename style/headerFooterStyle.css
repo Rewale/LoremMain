@@ -1,25 +1,31 @@
+/*Стили для хедера и футера 
+по умолчанию на странице*/
 body{
     margin: 0px;
     padding: 0px;
 }
+/*Кнопка вызова меню (видна только на 680 и меньше)*/
 #menu_butt{
     width: 80px;
     margin-top: 15px;
     position: relative;
 }
+/*Шапка страницы*/
 header{
        
     width: 90%;   
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
+/*Логотип в шапке*/
 #logo{
     margin-top: 15px;
     margin-left: 5%;
     width:82px;
 }
+/*Список в шапке*/
 .list{
     display: flex;
     margin-top: 50px;   
@@ -29,6 +35,7 @@ header{
     width:40%;
     
 }
+/*Вызываемое меню*/
 .list-hide{
     
     display: flex;
@@ -43,12 +50,13 @@ header{
     padding: 10px;
     text-align: left;
 }
-
+/*Ссылки вызываемого меню*/
 .item-hide-a{
     display: inline;
     padding-top: 10px;
     
 }
+/*Элемент вызываемого меню*/
 .item-hide{
     padding: 20px;
 }
@@ -85,14 +93,18 @@ a{
     white-space: nowrap;
 
 }
+/*!!!!!!!!!!!!!!!!!!!!!Делает список горизонтальным!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .list-hide{
     left:0;
     margin:0;
 }
+
+/*Часть шапки с кнопками регистрации и входа*/
 #Buttons-nav{
     display: flex;
     margin-top: 35px; 
 }
+/*Кнопка входа*/
 .Button-Join{
     background-color:#C4C4C4;
     display: inline-block; 
@@ -108,6 +120,7 @@ a{
     color: #000000;
     text-transform: uppercase;
 }
+/*Регистрации*/
 #Button-Reg{
     color:white;
     background: #9600AE;
@@ -169,6 +182,7 @@ footer{
     width:179px;
     
 }
+/*Ссылка на логотип в подвале*/
 #logo-footer-a{
     padding-left:5%;
 }
@@ -188,7 +202,7 @@ footer{
     list-style: none;
 }
 
-
+/*Медиа - запросы*/
 @media(max-width:900px)
 {
     header{
@@ -202,17 +216,32 @@ footer{
     }
     
 }
- @media(max-width:650px)
+@media(max-width:680px)
+{
+    #logo-footer
+    {
+        width:80px;
+    }
+}
+ @media(max-width:690px)
  {
      #footer-content li, #footer-content p{
          font-size:12px;
      }
  }
- @media(max-width:550px)
+ @media(max-width:560px)
  {
      #footer-content li, #footer-content p{
-         font-size:10px;
+         font-size:12px;
      }
+     #menu_butt{
+        width: 60px;
+        margin-top: 30px;
+        position: relative;
+    }
+    #info-footer{
+        width:70%;
+    }
  }
 
 

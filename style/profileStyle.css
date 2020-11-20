@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
+/*Заголовок в шапке*/
 #title-header{
     display: inline;
     font-family: Mulish;
@@ -29,11 +29,13 @@ body{
 main{
     margin-top:20px;
 }
+/*Изображение в биографии и фактах художника*/
 .info img{
     width: 40%;
     
     margin: auto;
 }
+/*Текстовая информация в биографии и фактах художника*/
 .textInfo{
     width: 35%;
     margin: auto;
@@ -51,18 +53,24 @@ main{
 
     color: rgba(0, 0, 0, 0.8);
 }
+/*Выделенный текст*/
 #boldText{
     font-weight: bold;
     font-size: 24px;
     line-height: 150%;    
     color:black;
 }
+/*Выравнивание текста для всего текста*/
 #facts .textInfo,#boldtext{
     text-align: right;
 }
+/*Факты о художнике*/
 #facts{
     background-color: #F5F5F5;;
 }
+
+
+/*Медиа-запросы*/
 @media(max-width:800px)
 {
     .info{

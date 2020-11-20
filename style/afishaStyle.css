@@ -2,9 +2,11 @@ body{
     margin: 0px;
     padding:0px;
 }
+/*Спрятанные изображения сверху и снизу параграфа(видны только при 680 и меньше)*/
 .hideImg{
     display: none;
 }
+/*Информация о выставке*/
 .info-afisha{
     display: flex;
     flex-direction: row;
@@ -12,16 +14,21 @@ body{
     padding-top: 150px;
     padding-bottom: 100px;
 }
+/*Главное изображение выставки( скрыто при 680 и меньше) */
 .info-afisha img{
     width:30%;
     margin: auto;
    
 }
+/*Текстовая информация о выставке*/
 .textInfo{    
     
     padding-top:12.5%;
     
 }
+
+
+/*Медиа-запросы*/
 @media(max-width:1000px)
 {
     .info-afisha{

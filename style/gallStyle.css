@@ -1,3 +1,4 @@
+/*Стили для карусели (рекомендуемые разработчиком)*/
 .glider-contain {
     box-sizing: border-box
 }
@@ -22,9 +23,11 @@ html, body {
 .list-hide{
     position: absolute;
 }
+/*Отступ после шапки*/
 header{
     margin-bottom: 100px;
 }
+/*Заголовок галереи*/
 #title_gall{
     font-family: Montserrat;
     font-style: normal;
