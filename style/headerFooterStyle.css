@@ -38,7 +38,7 @@ header{
 /*Вызываемое меню*/
 .list-hide{
     
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
@@ -49,6 +49,9 @@ header{
     right:0px;
     padding: 10px;
     text-align: left;
+}
+#hide-div{
+    display: none;
 }
 /*Ссылки вызываемого меню*/
 .item-hide-a{
@@ -222,6 +225,16 @@ footer{
     {
         width:80px;
     }
+    .list{
+        display: none;
+    }
+    #Buttons-nav{
+        display: none;
+    }
+    #hide-div{
+        display: block;
+    }
+    
 }
  @media(max-width:690px)
  {
